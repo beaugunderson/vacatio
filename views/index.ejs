@@ -1,0 +1,59 @@
+<p>Register with one or more of these services and we'll tell you the last time you took a break from the Internet.</p>
+
+<ul id="auth">
+ <li id="facebook"><%- services.facebook %></li>
+ <li id="foursquare"><%- services.foursquare %></li>
+ <li id="instagram"><%- services.instagram %></li>
+ <li id="twitter"><%- services.twitter %></li>
+</ul>
+
+<div id="empowered">
+ <a href="http://singly.com/"><img src="/empowered.png" /></a>
+
+ <p class="caveat">This app is powered by a very early version of the Singly API and as such things might break--we're fixing things as they break, though!</p>
+</div>
+
+<form class="form-horizontal">
+ <label>
+  For me, an Internet vacation is at least this many days:
+
+  <select id="vacation-days" class="span1">
+   <option value="1">1</option>
+   <option value="2">2</option>
+   <option value="3">3</option>
+   <option value="4">4</option>
+   <option value="5" selected="selected">5</option>
+   <option value="6">6</option>
+   <option value="7">7</option>
+   <option value="8">8</option>
+   <option value="9">9</option>
+   <option value="10">10</option>
+   <option value="11">11</option>
+   <option value="12">12</option>
+   <option value="13">13</option>
+   <option value="14">14</option>
+  </select>
+ </label>
+</form>
+
+<div id="ajax-error" class="alert alert-error">
+ <p>Sorry, there was an error retrieving your data. We've been alerted and are <a href="buttons.gif">working on the issue</a>.</p>
+
+ <div id="ajax-error-details"></div>
+</div>
+
+<h2 id="results-header" class="results">Results</h2>
+
+<div id="results" class="results">
+ <p id="results-stats">
+  <span id="results-stats-text"><!-- Filled programatically --></span>
+
+  <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="none" data-via="needvacatio" data-related="needvacatio:How long since your last Internet vacation?" id="share-stats">Tweet</a>
+ </p>
+</div>
+
+<h3 id="dates-header" class="results">Your Internet vacations </h3>
+
+<ul id="dates" class="results">
+ <!-- Filled programatically -->
+</ul>

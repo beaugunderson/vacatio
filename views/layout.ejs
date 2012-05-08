@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+  <title>vacat.io</title>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+  <script src="lib/async.min.js"></script>
+  <script src="lib/moment.min.js"></script>
+  <script src="lib/spin.min.js"></script>
+  <script src="lib/sprintf-0.7-beta1.js"></script>
+  <script src="lib/underscore-min.js"></script>
+
+  <script>
+   var accessToken = '<%= session.access_token %>';
+  </script>
+
+  <script src="app.js"></script>
+
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/styles.css" />
+ </head>
+
+ <body>
+  <h1><a href="/">vacat.io</a></h1>
+
+  <%- body %>
+ </body>
+</html>

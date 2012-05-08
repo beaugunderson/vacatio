@@ -1,0 +1,12 @@
+{
+   "name": "vacat.io",
+   "version": "0.0.0",
+   "dependencies": {
+      "express": "*",
+      "ejs": "*",
+      "request": "*",
+      "querystring": "*",
+      "oauth": "*",
+      "connect-mongo": "*"
+   }
+}

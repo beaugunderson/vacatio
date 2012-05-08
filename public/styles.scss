@@ -1,0 +1,70 @@
+body {
+	padding: 4em;
+	padding-top: 1em;
+}
+
+select {
+	font-size: 13pt;
+}
+
+#ajax-error {
+	display: none;
+}
+
+#ajax-error-details {
+	font-size: 0.8em;
+}
+
+#dates {
+	width: 400px;
+
+	li:hover .range {
+		opacity: 0.6;
+	}
+
+	li .range {
+		opacity: 0.3;
+	}
+}
+
+a, a:visited {
+	color: #25aae1;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.check {
+	color: #25aae1;
+	margin-right: 4px;
+}
+
+#empowered {
+	margin-left: 14px;
+	width: 500px;
+}
+
+.results {
+	display: none;
+}
+
+.caveat {
+ font-size: 0.9em;
+ opacity: 0.8;
+ margin-top: 0.8em;
+}
+
+#results-stats iframe {
+	vertical-align: middle;
+	margin-top: -5px;
+}
+
+li {
+	list-style-type: none;
+}
+
+#auth {
+	width: 275px;
+}
